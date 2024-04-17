@@ -2,7 +2,7 @@
 Formulario propio, con back-end en node.js y front-end
 Proyecto diseñado para la asignatura de Ética profesional
 Carrera: LICENCIATURA DE ING. EN TELECOMUNICACIONES, SISTEMAS Y ELECTRÓNICA
-Grupo: 
+Grupo: 2259
 UNAM
 FES Cuautitlán Campo 4 
 
