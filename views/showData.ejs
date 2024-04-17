@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include ('headers.ejs') %>
+        <title>Mostrar resultados</title>
+</head>
+
+<body>
+    <div class="main-e">
+        <h1 style="color:  #ff4d4d;">Data</h1>
+        <h2 style="color:  #be4dff;">Encuestas registradas: <span id="cuenta"></span></h2>
+        <a href="/api/rAll">Data in JSON</a>
+        <div style="overflow-x:auto;">
+            <table>
+                <thead id="head">
+
+                </thead>
+                <tbody id="body">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="/eData.js"></script>
+</body>
+
+</html>

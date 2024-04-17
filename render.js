@@ -7,16 +7,11 @@ rt.get('/', (req, res) => {
     res.render('main.ejs')
 })
 
-rt.get('/etica', (req, res) => {
-    res.render('etica.ejs')
+rt.get('/formulario', (req, res) => {
+    res.render('formulario.ejs')
 })
 
-rt.get('/moral', (req, res) => {
-    res.render('moral.ejs')
+rt.get('/showData', (req, res) => {
+    res.render('showData.ejs')
 })
-
-rt.get('/valores', (req, res) => {
-    res.render('valores.ejs')
-})
-
 module.exports = rt
